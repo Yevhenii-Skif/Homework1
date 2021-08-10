@@ -1,0 +1,143 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.header{
+  width: 100%;
+  background: rgba(196, 196, 196, 0.75);
+  height: 70px;
+}
+.center{
+  width: 1025px;
+  margin: 0 auto;
+  background: rgba(196, 196, 196, 0);
+  height: 70px;
+  clear: both;
+}
+.center h1{
+  font-size: 40px;
+  line-height: 48px;
+  padding: 11px 0px;
+  color: #3A3A3A;
+  float: left;
+}
+.search{
+  width: 295px;
+  height: 45px;
+  margin-top: 14px;
+  margin-left: 383px;
+  margin-bottom: 11px;
+  float: right;
+  position: relative;
+}
+.search input{
+  width: 295px;
+  height: 45px;
+  border: 1px solid rgba(196, 196, 196, 0.75);
+  padding-left: 41px;
+  position: absolute;
+  font-size: 15px;
+}
+.icon{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin-left: 9px;
+  margin-top: 14px;
+  z-index: 5;
+}
+.main{
+  margin: 0 auto;
+  width: 1031px;
+  height: 446px;
+  margin-top: 38px;
+  clear: both;
+}
+.first{
+  width: 295px;
+  height: 446px;
+  float: left;
+  background: #F4F5F7;
+  margin-right: 70px;
+  position: relative;
+}
+.second{
+  width: 295px;
+  height: 446px;
+  float: left;
+  margin-right: 70px;
+  background: #F4F5F7;
+}
+.last{
+  width: 295px;
+  height: 446px;
+  float: left;
+  background: #F4F5F7;
+}
+.img1{
+  width: 294px;
+  height: 301px;
+  position: relative;
+}
+.name{
+  padding-top: 18px;
+  color: #3A3A3A;
+  margin-bottom: 8px;
+  margin-left: 17px;
+}
+.text-span{
+  color: #898989;
+  font-size: 16px;
+  margin-left: 17px;
+}
+.prise{
+  color: #3A3A3A;
+  font-size: 20px;
+  padding-left: 17px;
+  padding-top: 8px;
+}
+.prise-last{
+  color: #B0B0B0;
+  text-decoration-line: line-through;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.back{
+  width: 294px;
+  height: 301px;
+  background: rgba(200, 164, 164, 0.55);
+  position: absolute;
+  z-index: 10;
+}
+.img3{
+  position: relative;
+}
+.first:after{
+  content: '50%';
+  width: 50px;
+  height: 50px;
+  background: #E97171;;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -370px;
+  margin-left: 205px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  line-height: 50px;
+}
+.second:after{
+  content: 'New';
+  width: 50px;
+  height: 50px;
+  background: #2EC1AC;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -370px;
+  margin-left: 205px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  line-height: 50px;
+}
